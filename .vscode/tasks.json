@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Initialize Jest and run tests",
+			"command": "npm install --save-dev jest ts-jest @types/jest && npx ts-jest config:init && npx jest",
+			"group": "test"
+		}
+	]
+}
