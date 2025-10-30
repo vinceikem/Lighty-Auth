@@ -1,11 +1,11 @@
-# LightyAuth 🔐
+# LightyAuth
 
 LightyAuth is a simple, lightweight wrapper around **Google OAuth 2.0** that makes it easy to authenticate users in your app.  
 It handles generating the authorization URL, exchanging authorization codes for access tokens, and fetching user profile data.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Simple Google OAuth 2.0 integration
 - Get user profile data with minimal setup
@@ -15,7 +15,7 @@ It handles generating the authorization URL, exchanging authorization codes for 
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ```bash
 npm install lighty-auth
@@ -27,7 +27,7 @@ yarn add lighty-auth
 
 ---
 
-## 🛠️ Usage
+##  Usage
 
 ### 1. Initialize LightyAuth
 
@@ -99,7 +99,7 @@ Example response:
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. You create an OAuth Client in your Google Cloud Console.
 2. Initialize `LightyAuth` with your client credentials.
@@ -110,7 +110,7 @@ Example response:
 
 ---
 
-## 🧩 Example Express Setup
+##  Example Express Setup
 
 ```ts
 import express from "express";
@@ -139,6 +139,6 @@ app.listen(3000, () => console.log("Server running on http://localhost:3000"));
 
 ---
 
-## 📄 License
+##  License
 
 MIT License © 2025 LightyAuth
